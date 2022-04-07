@@ -18,7 +18,7 @@ layout: 'base.njk'
 					</a>
 				</h3>
 				<p class="snippet__meta">
-					by <span>{{ post.data.author }}</span> on <span>{{ post.data.date }}</span>
+					by <span>{{ post.data.author }}</span> on <span>{{ post.data.date | postDate}}</span>
 				</p>
 				<p class="snippet__body">
 					{{ post.data.description}}
