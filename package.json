@@ -1,0 +1,26 @@
+{
+  "name": "11ty-starter-files",
+  "version": "1.0.0",
+  "description": "11ty-starter-files",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RidhikGovind/11ty-starter-files.git"
+  },
+  "keywords": [
+    "11ty"
+  ],
+  "author": "Ridhik Govind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RidhikGovind/11ty-starter-files/issues"
+  },
+  "homepage": "https://github.com/RidhikGovind/11ty-starter-files#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
